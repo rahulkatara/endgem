@@ -1,0 +1,64 @@
+.logo{
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+    clip-path: circle();
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  width: 96%;
+  margin-left: 2%;
+  margin-top: 1%;
+  background-color: black;
+  box-shadow: 10px 10px 5px aqua;
+  border-radius: 9px;
+}
+
+body{
+  background-color: rgb(30, 41, 41);
+}
+
+.plus{
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  clip-path: circle(48px at 50px 50px);
+}
+
+.select{
+  height: 60px;
+  width:500px;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  background-color: white;
+  border-style: outset;
+  border-width: 8px;
+  border-color: aqua;;
+  font-size: 35px;
+  margin-right: 400px;
+}
+
+.form{
+  margin-left: 500px;
+  margin-top: 40px;
+}
+option{
+  font-size: 30px;
+  background-color: rgb(72, 224, 235);
+  color: black;
+}
+
+.val:hover{
+  background-color: rgb(17, 0, 255);
+}
+
+.drop{
+  float: right;
+  height: 50px;
+  width: 50px;
+}
+
